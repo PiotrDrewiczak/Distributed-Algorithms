@@ -1,0 +1,2 @@
+mpicc -std=c99 2.c -lm  # -lm linkuje biblioteke math.h, -std=c99 wlacza obsluge c99
+mpirun -n 2 ./a.out test2.in
